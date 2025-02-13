@@ -8,7 +8,7 @@ begin
 	if exists (select * from Projetos where Id = @id_projeto)
 		begin
 			insert into Tarefas (ProjetoId, Titulo, Descricao, Status) values 
-				(1, 'Pesquisa', 'Pesquisa para concepção inicial do projeto', 'Concluído');
+				(1, @titulo, @descricao, @status);
 		end
 	else
 	begin
@@ -16,7 +16,12 @@ begin
 	end
 end
 
-exec SPAddTarefa @id_projeto = 2, 
+
+exec SPAddTarefa @id_projeto = 1, 
                  @titulo = 'Criar API',
                  @descricao = 'Construção de uma API em .NET Core 8',
                  @status = 'Em andamento';
+
+/*drop procedure SPAddTarefa;*/
+
+select * from Tarefas;

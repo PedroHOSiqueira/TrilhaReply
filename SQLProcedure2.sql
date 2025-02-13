@@ -24,5 +24,5 @@ begin
 	end
 end
 
-exec SPGetTarefaEquipe @id_usuario = 1, 
+exec SPGetTarefaEquipe @id_usuario = 4, 
 					   @id_equipe = 2;

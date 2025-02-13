@@ -15,4 +15,6 @@ begin
 	end
 end
 
-EXEC SPUpdateTarefaStatus @id_tarefa = 1;
+exec SPUpdateTarefaStatus @id_tarefa = 7;
+
+select * from Tarefas;
