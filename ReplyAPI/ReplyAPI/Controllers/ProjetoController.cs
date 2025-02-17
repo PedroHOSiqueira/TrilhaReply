@@ -20,7 +20,7 @@ namespace ReplyAPI.Controllers
 
         [HttpPost]
         [Route("api/[controller]/Create")]
-        public async Task<IActionResult> AddProjeto(Projetos projetos)
+        public async Task<IActionResult> AddProjeto([FromBody] Projetos projetos)
         {
             await _repository.AddProjeto(projetos);
 
@@ -30,7 +30,7 @@ namespace ReplyAPI.Controllers
 
         [HttpPut()]
         [Route("api/[controller]/Update")]
-        public async Task<IActionResult> UpdateProjeto(Projetos projetos)
+        public async Task<IActionResult> UpdateProjeto([FromBody] Projetos projetos)
         {
            await _repository.UpdateProjeto(projetos);
 
