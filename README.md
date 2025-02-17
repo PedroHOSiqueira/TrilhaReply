@@ -11,7 +11,7 @@ Softwares necessários para rodar o projeto:
 
 - [.NET SDK 8](https://dotnet.microsoft.com/en-us/download)
 - [SQL Server 2022](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
-- [SQL Server Management Studio (SSMS)](https://aka.ms/ssmsfullsetup) (opcional, mas recomendado)
+- [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms) (opcional, mas recomendado)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
 - [Postman](https://www.postman.com/) ou [Swagger UI](https://swagger.io/tools/swagger-ui/) para testar a API
 
@@ -90,6 +90,107 @@ dotnet ef database update --project ReplyAPI
 
 📸 **API rodando no Swagger:**
 
+![Equipe e EquipeUsuario](Prints_Evidências/EndpointsSwagger1.png)
+![Projeto, Tarefa e Usuario](Prints_Evidências/EndpointsSwagger2.png)
+
 ---
 
 ## 🎯 Evidências dos endpoints funcionando
+
+✅ **Endpoints testados no Postman e Swagger:**
+
+Equipe - GetAll
+
+![get](Prints_Evidências/Equipe/get.png)
+
+Equipe - Post
+
+![post](Prints_Evidências/Equipe/post.png)
+
+Equipe - Put
+
+![put](Prints_Evidências/Equipe/put.png)
+
+Equipe - Delete
+
+![delete1](Prints_Evidências/Equipe/delete1.png)
+![delete2](Prints_Evidências/Equipe/delete2.png)
+
+---
+
+Projeto - GetAll
+
+![get](Prints_Evidências/Projeto/get.png)
+
+Projeto - Post
+
+![post](Prints_Evidências/Projeto/post.png)
+
+Projeto - Put
+
+![put](Prints_Evidências/Projeto/put.png)
+
+Projeto - Delete
+
+![delete1](Prints_Evidências/Projeto/delete1.png)
+![delete2](Prints_Evidências/Projeto/delete2.png)
+
+---
+
+Tarefa - GetAll
+
+![get](Prints_Evidências/Tarefa/get.png)
+
+Tarefa - Post
+
+![post](Prints_Evidências/Tarefa/post.png)
+
+Tarefa - Put
+![put](Prints_Evidências/Tarefa/put.png)
+
+Tarefa - Delete
+
+![delete1](Prints_Evidências/Tarefa/delete1.png)
+![delete2](Prints_Evidências/Tarefa/delete2.png)
+
+---
+
+Usuario - GetAll
+
+![get](Prints_Evidências/Usuario/get.png)
+
+Usuario - Post
+
+![post](Prints_Evidências/Usuario/post.png)
+
+Usuario - Put
+
+![put](Prints_Evidências/Usuario/put.png)
+
+Usuario - Delete
+
+![delete1](Prints_Evidências/Usuario/delete1.png)
+![delete2](Prints_Evidências/Usuario/delete2.png)
+
+---
+
+UsuarioEquipe - GetAll
+
+![get](Prints_Evidências/UsuarioEquipe/get.png)
+
+UsuarioEquipe - Post
+
+![post](Prints_Evidências/UsuarioEquipe/post.png)
+
+UsuarioEquipe - Put
+
+![put](Prints_Evidências/UsuarioEquipe/put.png)
+
+UsuarioEquipe - Delete
+
+![delete1](Prints_Evidências/UsuarioEquipe/delete1.png)
+![delete2](Prints_Evidências/UsuarioEquipe/delete2.png)
+
+
+
+
