@@ -11,7 +11,7 @@ Softwares necessários para rodar o projeto:
 
 - [.NET SDK 8](https://dotnet.microsoft.com/en-us/download)
 - [SQL Server 2022](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
-- [SQL Server Management Studio (SSMS)](https://aka.ms/ssmsfullsetup) (opcional, mas recomendado)
+- [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/ssms/download-sql-server-management-studio-ssms) (opcional, mas recomendado)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
 - [Postman](https://www.postman.com/) ou [Swagger UI](https://swagger.io/tools/swagger-ui/) para testar a API
 
