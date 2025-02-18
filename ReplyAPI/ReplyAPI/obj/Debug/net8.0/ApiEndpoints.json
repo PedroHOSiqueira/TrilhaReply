@@ -1,0 +1,347 @@
+[
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeController",
+    "Method": "AddEquipe",
+    "RelativePath": "api/Equipe/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipes",
+        "Type": "ReplyAPI.Models.Equipe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeController",
+    "Method": "DeleteEquipe",
+    "RelativePath": "api/Equipe/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeController",
+    "Method": "GetAllEquipes",
+    "RelativePath": "api/Equipe/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeController",
+    "Method": "UpdateEquipe",
+    "RelativePath": "api/Equipe/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipes",
+        "Type": "ReplyAPI.Models.Equipe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeUsuarioController",
+    "Method": "AddUsuarioEquipe",
+    "RelativePath": "api/EquipeUsuario/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuariosEquipes",
+        "Type": "ReplyAPI.Models.UsuarioEquipe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeUsuarioController",
+    "Method": "DeleteProjeto",
+    "RelativePath": "api/EquipeUsuario/Delete/{usuarioId}/{equipeId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "equipeId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeUsuarioController",
+    "Method": "GetAllUsuarioEquipes",
+    "RelativePath": "api/EquipeUsuario/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.EquipeUsuarioController",
+    "Method": "UpdateProjeto",
+    "RelativePath": "api/EquipeUsuario/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuariosEquipes",
+        "Type": "ReplyAPI.Models.UsuarioEquipe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.ProjetoController",
+    "Method": "AddProjeto",
+    "RelativePath": "api/Projeto/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tarefas",
+        "Type": "System.Collections.Generic.ICollection\u00601[[ReplyAPI.Models.Tarefas, ReplyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataInicio",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataFim",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.ProjetoController",
+    "Method": "DeleteProjeto",
+    "RelativePath": "api/Projeto/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.ProjetoController",
+    "Method": "GetAllProjetos",
+    "RelativePath": "api/Projeto/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.ProjetoController",
+    "Method": "UpdateProjeto",
+    "RelativePath": "api/Projeto/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tarefas",
+        "Type": "System.Collections.Generic.ICollection\u00601[[ReplyAPI.Models.Tarefas, ReplyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nome",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descricao",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataInicio",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataFim",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.TarefaController",
+    "Method": "AddTarefa",
+    "RelativePath": "api/Tarefa/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefas",
+        "Type": "ReplyAPI.Models.Tarefas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.TarefaController",
+    "Method": "DeleteTarefa",
+    "RelativePath": "api/Tarefa/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.TarefaController",
+    "Method": "GetAllTarefas",
+    "RelativePath": "api/Tarefa/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.TarefaController",
+    "Method": "UpdateTarefa",
+    "RelativePath": "api/Tarefa/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tarefas",
+        "Type": "ReplyAPI.Models.Tarefas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.UsuarioController",
+    "Method": "AddUsuario",
+    "RelativePath": "api/Usuario/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarios",
+        "Type": "ReplyAPI.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.UsuarioController",
+    "Method": "DeleteUsuario",
+    "RelativePath": "api/Usuario/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.UsuarioController",
+    "Method": "GetAllUsuarios",
+    "RelativePath": "api/Usuario/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ReplyAPI.Controllers.UsuarioController",
+    "Method": "UpdateUsuario",
+    "RelativePath": "api/Usuario/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarios",
+        "Type": "ReplyAPI.Models.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
